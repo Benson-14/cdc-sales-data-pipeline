@@ -67,6 +67,7 @@ Amazon DynamoDB is used to store the gadget sales data. It’s a fast and scalab
 To track any changes made to the data, DynamoDB Streams is enabled. This allows us to capture every INSERT, MODIFY, or REMOVE operation made to the table.
 
 📘 What is CDC?
+
 Change Data Capture (CDC) is a pattern used to capture and record changes in a data source. In this pipeline, CDC allows us to:
 
 - Track real-time changes in orders
